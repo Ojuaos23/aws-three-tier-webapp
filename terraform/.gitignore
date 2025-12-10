@@ -1,0 +1,16 @@
+# Ignore Terraform local state
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore SSH keys
+*.pem
+*.key
+aws-keys/
+cloud-keys/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore screenshots folder if you don’t want to upload them
+screenshots/
